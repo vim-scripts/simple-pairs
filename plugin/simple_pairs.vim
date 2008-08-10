@@ -4,6 +4,7 @@ if !has('python')
 endif
 
 python << endpython
+import vim
 pairs = {'(': ')', '[': ']', '{': '}', '"': '"', "'": "'"}
 def getNextChar():
     'returns next char or None, for end of line'
